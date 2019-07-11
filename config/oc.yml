@@ -1,0 +1,10 @@
+client:
+    customTiles:
+        osm:
+            name: OpenStreetMap
+            attribution: Data &copy; <a href="http://www.openstreetmap.org/copyright" rel="noopener noreferrer" target="_blank">OpenStreetMap</a>
+            changesetAttribution: A custom attribution added to contributions changeset
+            urlTemplate:
+                - https://tile.openstreetmap.bzh/oc/{z}/{x}/{y}.png
+            minZoom: 0
+            maxZoom: 19
